@@ -21,10 +21,12 @@ int main() {
     // Get input
     while((c = getchar()) != EOF) {
 
+        // If the input isn't a seperator, then add to the word length
         if (c != ' ' && c != '\n' && c != '\t') {
             word_length++;
             state = IN;
         } else {
+            // Print characters
             if (state == IN) {
                 for (i = 0; i < word_length; ++i) {
                     putchar('*');
