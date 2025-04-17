@@ -30,7 +30,7 @@ int main() {
 
         // Bring the state back to IN
         if (state == OUT) {
-            state == IN;
+            state = IN;
         }
     }
     return 0;
