@@ -4,7 +4,7 @@ This is a repository containing programs from the book, "The C Programming Langu
 
 ## Contents
 ### Notes
-01 Introduction
+Chapter 1 - Introduction
 
 ### Projects
 Temperature Conversion
