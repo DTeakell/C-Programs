@@ -26,8 +26,6 @@ int main() {
         } else if (c == ' ' || c == '\n' || c == '\t') {
             nos ++;
             state = OUT;
-        } else if (state == OUT) {
-            state = IN;
         }
     }
 }
